@@ -1,5 +1,7 @@
+/* Definindo as fontes */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Lato:wght@900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+/* Definindo estilo para todos os elementos */
 * {
     margin: 0;
     padding: 0;
@@ -7,46 +9,73 @@
     text-decoration: none;
 }
 
+/* Estilo para o fundo da página */
 .background {
+    /* Definindo uma imagem de fundo e uma sobreposição de cor para dar um efeito escuro */
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(image/rider-motorbike-na-equitacao-da-estrada-se-divertindo-dirigindo-a-estrada-vazia.jpg);
+    /* Fazendo a imagem de fundo cobrir toda a tela */
     background-size: cover;
+    /* Definindo a altura da seção como 100% da altura da tela */
     height: 100vh;
+    /* Definindo a cor do texto como branco */
     color: #FFFFFF;
 }
 
 .content {
+    /* Fazendo o conteúdo flutuar para a direita */
     float: right;
+    /* Alinhando o conteúdo à direita */
     text-align: right;
+    /* Adicionando uma sombra ao texto */
     text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+    /* Definindo as margens do conteúdo */
     margin-right: 100px;
     margin-top: 300px;
-
 }
 
 .content h1 {
+    /* Definindo a fonte do texto */
     font-family: 'Lato';
+    /* Definindo o peso da fonte como negrito */
     font-weight: 800;
+    /* Definindo o tamanho da fonte */
     font-size: 90px;
+    /* Definindo a altura da linha */
     line-height: 108px;
+    /* Definindo a cor do texto como amarelo */
     color: #FAFF00;
 }
 
 .content h2 {
+    /* Definindo a fonte do texto */
     font-family: 'Inter';
+    /* Definindo o estilo da fonte como normal */
     font-style: normal;
+    /* Definindo o peso da fonte */
     font-weight: 400;
+    /* Definindo o tamanho da fonte */
     font-size: 64px;
+    /* Definindo a altura da linha */
     line-height: 77px;
+    /* Definindo a cor do texto como branco */
     color: #FFFFFF;
 }
 
 .content h3 {
+    /* Definindo a fonte do texto */
     font-family: 'Inter';
+    /* Definindo o estilo da fonte como normal */
     font-style: normal;
+    /* Definindo o peso da fonte como 100 */
     font-weight: 100;
+    /* Definindo o tamanho da fonte */
     font-size: 64px;
+    /* Definindo a altura da linha */
     line-height: 77px;
+    /* Definindo a cor do texto como branco */
     color: #FFFFFF;
+    /* Alinhando o texto à direita */
     text-align: right;
+    /* Definindo a opacidade do texto */
     opacity: 0.7;
 }
